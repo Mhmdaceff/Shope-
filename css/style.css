@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    /* background-color: rgba(244, 239, 239, 0.948) !important; */
+    background-color: #081b29 !important;
+    color: #fdfdfd !important;
+}
+
+.navbar {
+    background-color: #000000;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.lis {
+    border-left: 3px solid rgb(128, 125, 125);
+    /* padding: px; */
+}
+
+
+/* .carousel-item h3 { */
+/* font-family: ; */
+/* font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-top: 50px;
+    text-shadow: 0px 20px 20px 0px grey;
+} */
+
+.hello {
+    background-color: #fdfdfd;
+}
+
+.input-group {
+    outline: none;
+    border: none;
+}
+
+.search {
+    background-color: rgb(216, 216, 216) !important;
+}
+
+
+.sin {
+    border: 1px solid black;
+    outline: none;
+    border-radius: 2px 40px 2px 40px;
+    color: white;
+    font-weight: 400;
+    padding: 5px 20px;
+    font-family: Poppins, sans-serif;
+    background-color: crimson !important;
+}
+
+.oce {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+/* sin page  */
+.modal-header {
+
+    background-color: rgb(255, 255, 255);
+}
+
+.modal-header h1 {
+    margin: 0px auto;
+}
+
+.modal-body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    /* margin-top:70px ;    */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    /* width: 400px; */
+    padding: 40px;
+    box-shadow: 4px 4px 20px rgba(18, 18, 18, 0.4);
+    background-color: #081b29;
+    border-radius: 8%;
+}
+
+.view-button {
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form div input {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0 30px;
+    box-shadow: inset 1px 1px 3px rgb(11, 11, 11);
+    font-size: 15px
+}
+
+form div {
+    position: relative;
+    /* margin-bottom: 10px; */
+}
+
+form div i {
+    color: #000000;
+    position: absolute;
+    /* padding:38px; */
+    bottom: 17px;
+    left: 10px;
+    font-size: 17px;
+}
+
+.fa-circle-check {
+    color: green;
+}
+
+.fa-circle-xmark {
+    color: red;
+}
+
+.error {
+    font-size: 14.5px;
+    margin-top: 5px;
+}
+
+.fa-circle-check,
+.fa-circle-xmark {
+    right: 0;
+    opacity: 0;
+}
+
+.submit {
+    margin-top: 15px;
+    width: 250px;
+    height: 45px;
+    background-color: #f2796e;
+    border: 2px solid #f2796e;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.1s ease;
+    font-weight: bold;
+
+}
+
+.submit:hover {
+    opacity: 0.8;
+}
+
+.fa-eye,
+.fa-eye-slash {
+    right: 0;
+    opacity: 0;
+}
+
+.about-head {
+    display: flex;
+}
+
+.about-head p {
+    margin-right: 10px;
+    border-bottom: 2px solid rgb(0, 132, 137);
+    border-radius: 2px;
+    width: 40px;
+}
+
+.about span {
+    color: #00abf0;
+}
+
+.borde {
+
+    color: #fdfdfd !important;
+    border-left: 2px solid #00abf0;
+}
+
+.about-2 .para {
+    font-size: 0.70rem;
+    color: #fdfdfd !important;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(253, 253, 253, 0.14);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    transition: 0.8s ease-in-out;
+    /* position: relative; */
+}
+
+.emt {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(161, 161, 161, 0.29) !important;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h6 {
+    position: absolute;
+    bottom: 15px !important;
+}
+
+.box1:hover .emt1 svg {
+    color: skyblue;
+}
+
+.box1:hover .emt1 {
+    background-color: white !important;
+}
+
+.box1:hover {
+    transform: scale(0.95);
+    background-color: skyblue;
+}
+
+.box2:hover .emt2 svg {
+    color: blue;
+}
+
+.box2:hover .emt2 {
+    background-color: white !important;
+}
+
+.box2:hover {
+    background-color: blue;
+    transform: scale(0.95);
+}
+
+.box3:hover .emt3 svg {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 54%, rgba(252, 176, 69, 1) 100%);
+}
+
+.box3:hover .emt3 {
+    background-color: white !important;
+}
+
+.box3:hover {
+    transform: scale(0.95);
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 54%, rgba(252, 176, 69, 1) 100%);
+}
+
+.box4:hover .emt4 svg {
+    color: rgb(255, 255, 255);
+}
+
+.box4:hover .emt4 {
+    background-color: rgba(104, 104, 104, 0.99) !important;
+}
+
+.box4:hover {
+    background-color: rgb(16, 15, 15);
+    color: #fdfdfd;
+    transform: scale(0.95);
+}
+
+.button {
+    border: 2px solid #00abf0;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #00abf0;
+    background-color: transparent;
+    padding: 6px 15px;
+    border-radius: 8px;
+    transition: 1s ease-in-out;
+}
+
+.button:hover {
+    /* transform: rotate(20deg); */
+    transform: scale(0.95);
+    background-color: #00abf0;
+    color: #000000;
+    font-weight: 600;
+    /* scroll-behavior: smooth; */
+}
+
+.product {
+
+    position: relative;
+}
+
+.product h4 {
+    position: absolute;
+    text-align: center;
+    margin-top: -110px;
+    font-family: Poppins;
+    right: 130px;
+
+}
+
+.product:hover h4 {
+    opacity: 0 !important;
+}
+
+.product img {
+    border-radius: 10px !important;
+    /* filter: blur(1px); */
+}
+
+.product img:hover {
+
+    filter: blur(0px);
+}
+
+.user-logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.user h6 {
+    font-size: 0.90rem !important;
+}
+
+.user .pa {
+    font-size: 0.80rem !important;
+}
+
+.comment {
+    font-size: 0.75rem !important;
+}
+
+.dash {
+    border-bottom: 1px solid skyblue;
+    width: 100px !important;
+    box-sizing: border-box;
+    top: -18px;
+    position: relative;
+    /* position: absolute; */
+}
+
+.user {
+    display: flex;
+}
+
+.view a {
+    text-decoration: none !important;
+    color: #fdfdfd !important;
+}
+
+.view {
+    border-bottom: 1px solid skyblue;
+    width: 75px;
+}
+
+.Froutes {
+    border-radius: 20px;
+    text-align: center;
+    /* position: relative; */
+}
+
+.Froutes .topick {
+    position: relative;
+    top: 30px;
+    right: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.topick h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #efefefef;
+}
+
+.topick p {
+    font-family: monospace !important;
+}
+
+.topick button {
+    background-color: #fdfdfd;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 4px 10px;
+    border-radius: 19px;
+    margin-top: 250px;
+}
+
+.topick span {
+    color: rgb(255, 0, 81);
+}
+
+.topick samp {
+    background-color: #ffffff;
+    /* background-color: rgba(44, 44, 44, 0.459) !important; */
+    padding: 3px 6px;
+    color: rgb(255, 5, 68);
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.topick button:hover {
+    background-color: rgba(44, 44, 44, 0.331) !important;
+    color: #ffffff;
+}
+
+.topick div span {
+    color: #fdfdfd;
+}
+
+.sope-card {
+    height: 150px !important;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.sope-rate .head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head h6 {
+    color: rgb(172, 172, 172);
+}
+
+.sope-rate .bodys {
+    position: relative;
+    top: -10px;
+}
+
+.bodys {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbotron {
+    background-color: rgba(0, 132, 137, 0.242);
+    color: #000000;
+    /* font-family: Poppins; */
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+
+.jumbotron h2 {
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jumbotron a {
+    text-decoration: none;
+    padding: 7px 20px;
+    border: 1px solid #081b29;
+    font-family: Poppins;
+    color: #081b29 !important;
+    background-color: #00abf0;
+    font-weight: 400;
+    transition: 1s;
+    border-radius: 40px 2px 40px 2px;
+    animation: aret 5s ease-in-out;
+    transition: 2s ease-in-out;
+}
+
+
+.faveicon{
+    width: 50px !important;
+    height: 50px !important;
+}
